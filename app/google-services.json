@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "738893810378",
+    "firebase_url": "https://bukuresep-a3bcd.firebaseio.com",
+    "project_id": "bukuresep-a3bcd",
+    "storage_bucket": "bukuresep-a3bcd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738893810378:android:dd93f3541a802e459a8233",
+        "android_client_info": {
+          "package_name": "id.ac.polinema.bukuresep"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738893810378-ipiikbui9rnacva71nlqibq30pkvvuue.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.ac.polinema.bukuresep",
+            "certificate_hash": "68f2074563253fe003fd59f293556c9fb5ca4273"
+          }
+        },
+        {
+          "client_id": "738893810378-1mbikvf0p0ckd5h303ilkmdpf379ko9b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5_vtuL7Qx9jViTU9IadXbBbFVgdtzVxg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "738893810378-1mbikvf0p0ckd5h303ilkmdpf379ko9b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
