@@ -6,6 +6,8 @@ import android.os.Bundle;
 
 public class IsiActivity extends AppCompatActivity {
 
+    public static Object ma;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
