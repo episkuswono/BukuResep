@@ -19,7 +19,7 @@ import id.ac.polinema.bukuresep.helper.dataHelper;
 
 public class IsiActivity extends AppCompatActivity {
 
-    public static Object ma;
+    public static IsiActivity ma;
     String[] daftarResep;
     ListView listResep;
     Menu menu;
