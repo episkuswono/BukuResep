@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".isiBaruActivity" >
+
+    <TextView
+        android:id="@+id/addNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Nama" />
+
+    <EditText
+        android:id="@+id/etAddNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addNama"
+        android:layout_marginTop="20dp"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/addAlat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etAddNama"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Alat" />
+
+    <EditText
+        android:id="@+id/etAddAlat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addAlat"
+        android:layout_marginTop="20dp"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/addBahan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etAddAlat"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Bahan" />
+
+    <EditText
+        android:id="@+id/etAddBahan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addBahan"
+        android:layout_marginTop="20dp"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnSimpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etAddBahan"
+        android:layout_marginTop="20dp"
+        android:text="Simpan" />
+
+    <Button
+        android:id="@+id/btnBatal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSimpan"
+        android:layout_marginTop="20dp"
+        android:text="Batal" />
+</RelativeLayout>
